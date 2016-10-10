@@ -30,7 +30,7 @@
 
 		myFunction();*/
 
-		$string = "Le site apprendre-a-coder.com c'est de la balle !";
+		/*$string = "Le site apprendre-a-coder.com c'est de la balle !";
 		$var1 = "com";
 		$var2 = "fr";
 
@@ -39,8 +39,23 @@
 		//echo str_word_count($string);
 		//echo strrev($string);
 		//echo strpos($string, "balle");
-		echo str_replace($var1, $var2, $string);
+		echo str_replace($var1, $var2, $string);*/
 
+		/*define("MON_URL","http://apprendre-a-coder.com");
+
+		function myFunction(){
+			echo "Le site " . MON_URL . " c'est de la balle !";
+		}
+
+		myFunction();*/
+
+		/*$red = "Rouge";
+		$maCouleur = $blue ?? $orange ?? $red ?? "Pas de couleur";
+
+		echo $maCouleur;
+
+		var_dump($blue);*/
+		
 
 
 	?>
