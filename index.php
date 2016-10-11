@@ -55,6 +55,16 @@
 		echo $maCouleur;
 
 		var_dump($blue);*/
+
+
+		$motivation = 5;
+		if ($motivation < 3) {
+			echo "Oulala, il faut se motiver";
+		} elseif ($motivation < 7) {
+			echo "Ton cas n'est pas grave... Resaisis toi !";
+		}else{
+			echo "C'est génial ! Continues...";
+		}
 		
 
 
