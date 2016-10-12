@@ -1,3 +1,4 @@
+<?php declare(strict_types=1); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,16 +58,47 @@
 		var_dump($blue);*/
 
 
-		$motivation = 5;
+		/*$motivation = 5;
 		if ($motivation < 3) {
 			echo "Oulala, il faut se motiver";
 		} elseif ($motivation < 7) {
 			echo "Ton cas n'est pas grave... Resaisis toi !";
 		}else{
 			echo "C'est génial ! Continues...";
-		}
-		
+		}*/
 
+		/*function maFonction($message ="Pas de message"){
+			echo $message;
+		}
+
+		maFonction();*/
+
+		/*function maFonction($message, $times){
+			for ($i=1; $i <= $times; $i++) { 
+				echo "$message <br>";
+			}
+		}
+
+		maFonction("coucou", 15);*/
+
+		/*function addition(int $x, int $y):int{
+			return $x + $y;
+		}
+
+		echo addition(3, 5);*/
+
+		/*$joursDeLaSemaine  = array("Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche");
+
+
+		for ($i=0; $i < count ($joursDeLaSemaine); $i++) { 
+				echo "$joursDeLaSemaine[$i] <br>";
+		}*/
+
+		/*$personnes = array("Pierre" => 30, "Paul" => 40, "Jacques" => 50);
+
+		foreach ($personnes as $nom => $age) {
+			echo "$nom a $age ans. <br>";
+		}*/
 
 	?>
 </body>
