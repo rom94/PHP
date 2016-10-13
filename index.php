@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
-	<?php 
+	<!-- <?php 
 		
 		/*$maVariable1 = 10;
 		$maVariable2 = 25;
@@ -100,7 +100,48 @@
 			echo "$nom a $age ans. <br>";
 		}*/
 
-	?>
+		/*class Etudiant{
+
+			public $nom;
+			public $age;
+			public $notes;
+			public $isStudy = true;
+
+			public function __construct($nom, $age, $notes){
+				$this->nom = $nom;
+				$this->age = $age;
+				$this->notes = $notes;
+			}
+
+			public function sePresente(){
+				if($this->isStudy){
+					echo "Je m'appelle " . $this->nom . " et j'ai " . $this->age . " ans. <br>";
+					foreach ($this->notes as $matiere => $note) {
+						echo "En $matiere, j'ai obtenu $note/20. <br>";
+					}
+				}
+			}
+
+		}
+
+		$notesRomain = array("Math" => 17, "Français" => 9, "Anglais" => 13);
+		$notesHarry = array("Philosophie" => 17, "Sciences politiques" => 9);
+
+		$romain = new Etudiant("Romain", "27", $notesRomain);
+		$harry = new Etudiant("Harry", "50", $notesHarry);
+
+		$romain->sePresente();
+		echo "<br>";
+		$harry->sePresente();*/
+
+
+
+	?> -->
+
+	<div class="menu">
+		<?php include "menu.php" ?>
+	</div>
+	<h1>Page d'accueil</h1>
 </body>
 </html>
 
