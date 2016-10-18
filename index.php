@@ -138,10 +138,25 @@
 
 	?> -->
 
-	<div class="menu">
+	<!-- <div class="menu">
 		<?php include "menu.php" ?>
 	</div>
-	<h1>Page d'accueil</h1>
+	<h1>Page d'accueil</h1> -->
+
+	<!-- <?php 
+	
+		//var_dump($_SERVER);
+		//var_dump($_REQUEST);
+		//var_dump($_COOKIE);
+		//var_dump($_COOKIE);
+		//var_dump($_SESSION);
+	
+	
+	 ?> -->
+	
+	 <p>
+	 	<a href="presentation.php?nom=John&age=31">Présentation</a>
+	 </p>
 </body>
 </html>
 
