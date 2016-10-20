@@ -1,4 +1,9 @@
 <?php declare(strict_types=1); ?>
+<?php setcookie("prenom", "Romain", time() + 3600*24*30); ?>
+<?php session_start();
+	$_SESSION["nom"] = "Romain" ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -154,9 +159,27 @@
 	
 	 ?> -->
 	
-	 <p>
+	 <!-- <p>
 	 	<a href="presentation.php?nom=John&age=31">Présentation</a>
-	 </p>
+	 </p> -->
+
+	<!-- <form action="presentation.php" method="post">
+		Nom: <input type="text" name="nom"><br>
+		Email: <input type="text" name="email"><br>
+		<input type="submit">
+	</form> -->
+
+	<!-- <a href="presentation.php">Qui es tu?</a> -->
+
+	<?php 
+		if (isset($_COOKIE['prenom'])) {
+			echo "<h1> Hello " . $_COOKIE['prenom'] . "</h1>"; 
+		}else{
+			echo "<h1> Je ne te connais pas </h1>";
+		}?>
+
+
+
 </body>
 </html>
 
